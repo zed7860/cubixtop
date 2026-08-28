@@ -1,0 +1,1 @@
+import {PageHero} from '../../components/Site'; import EnquiryForm from '../../components/EnquiryForm'; export default function(){return <><PageHero title="Get a Quote" desc="Tell us about your requirement and receive a tailored response."/><section className="section"><div className="container"><EnquiryForm quote/></div></section></>}

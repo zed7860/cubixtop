@@ -1,0 +1,1 @@
+import './globals.css'; import {Header,Footer} from '../components/Site'; export const metadata={title:'Cubixtop India | IT Solutions',description:'Modern IT support, networking, cloud and security solutions.'}; export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body><Header/>{children}<Footer/></body></html>}
